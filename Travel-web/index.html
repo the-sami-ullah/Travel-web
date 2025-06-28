@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
+
   <body>
     <div class="section1">
       <!--  =========================== Top-part ======================== -->
       <div class="top-bar">
-        <div class="name"><h2>Travel</h2></div>
+        <div class="name">
+          <h2>Travel</h2>
+        </div>
         <button class="login_btn">Login</button>
       </div>
 
@@ -31,5 +39,97 @@
         </div>
       </div>
     </div>
+
+    <div class="section2">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div
+            class="swiper-slide"
+            style="background-image: url(pics/img-1.jpg)"
+          >
+            <div class="slider-content">
+              <h3 class="slide-subtitle">Slide no 1</h3>
+              <h2 class="slide-title">Explore Beaches</h2>
+              <p class="slide-description">
+                Discover stunning beaches around the world.
+              </p>
+              <a href="#" class="slide-button"><span>Learn more</span></a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div
+            class="swiper-slide"
+            style="background-image: url(pics/img-2.jpg)"
+          >
+            <div class="slider-content">
+              <h3 class="slide-subtitle">Slide no 2</h3>
+              <h2 class="slide-title">Hike the Mountains</h2>
+              <p class="slide-description">
+                Breathe in the fresh air of the mountains.
+              </p>
+              <a href="#" class="slide-button"><span>Learn more</span></a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide"
+            style="background-image: url(pics/img-3.jpg)"
+          >
+            <div class="slider-content">
+              <h3 class="slide-subtitle">Slide no 3</h3>
+              <h2 class="slide-title">Hike the Mountains</h2>
+              <p class="slide-description">
+                Breathe in the fresh air of the mountains.
+              </p>
+              <a href="#" class="slide-button"><span>Learn more</span></a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide"
+            style="background-image: url(pics/img-4.jpg)"
+          >
+            <div class="slider-content">
+              <h3 class="slide-subtitle">Slide no 4</h3>
+              <h2 class="slide-title">Hike the Mountains</h2>
+              <p class="slide-description">
+                Breathe in the fresh air of the mountains.
+              </p>
+              <a href="#" class="slide-button"><span>Learn more</span></a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide"
+            style="background-image: url(pics/img-5.jpg)"
+          >
+            <div class="slider-content">
+              <h3 class="slide-subtitle">Slide no 5</h3>
+              <h2 class="slide-title">Hike the Mountains</h2>
+              <p class="slide-description">
+                Breathe in the fresh air of the mountains.
+              </p>
+              <a href="#" class="slide-button"><span>Learn more</span></a>
+            </div>
+          </div>
+
+          <!-- Add more slides here -->
+        </div>
+        <!-- End of swiper-wrapper -->
+
+        <!-- Pagination and navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- End of swiper -->
+    </div>
+    <!-- End of section2 -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
